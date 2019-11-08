@@ -5,6 +5,6 @@ def reverse_each_word(words)
   array_words.collect do |word|
     reversed_words = word.reverse.join(' ')
   end
-  
-  binding.pry
+
+  # binding.pry
 end
