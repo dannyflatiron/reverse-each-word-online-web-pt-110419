@@ -1,4 +1,4 @@
+require 'pry'
 def reverse_each_word(words)
-  wordsreversed = words.split(' ').reverse.join(' ')
-  wordsreversed
+  binding.pry
 end
