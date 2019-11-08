@@ -1,6 +1,8 @@
 require 'pry'
 def reverse_each_word(words)
-  reversed_words = []
-  reversed_words = words.split(' ')
+  array_words = []
+  array_words = words.split(' ')
+  array_words.collect do |word|
+    reversed_words = word.reverse.join(' ')
   binding.pry
 end
